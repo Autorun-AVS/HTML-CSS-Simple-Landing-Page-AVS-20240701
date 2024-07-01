@@ -3,44 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Landing Page</title>
+    <title>Simple-Landing-Page</title>
 
-    <!-- External CSS  -->
-    <link rel="stylesheet" href="style.avs.css">
+    <!-- External CSS file -avs -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Online Google fonts  -->
+    <!-- Online Google fonts -avs -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-    <div class="left-col-avs">
-        <div class="content-avs">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <main class="container-avs">
+
+        <!-- Left side content -avs -->
+        <div class="left-col">
+            <x-card class="content-avs">
+                <h1>Got Marketing? Advance your business Insight.</h1>
+                <p>Fill out the form and receive our award wining newsletter.</p>
+                <span class="developerRight">#developerRight ! Hi there. This project is completely open for you. You
+                    can study it or use in your project. But I will appreciate if you at least give me the credit.
+                    Thanks, take care and stay safe. https://github.com/Autorun-AVS</span>
+            </x-card>
         </div>
-    </div>
 
-    <div class="right-col-avs">
-        <div class="content-avs form-avs">
-            <div class="input-warpper">
-                <label for="name">Name</label>
-                <input type="text" id="name">
-            </div>
-            <div class="input-warpper">
-                <label for="email">Email</label>
-                <input type="text" id="email">
-            </div>
 
-            <div class="input-warpper">
-                <button>Sign me up</button>
-            </div>
+        <!-- Right side content -avs -->
+        <div class="right-col">
+
+            <form action="#">
+                <x-card class="content-avs form">
+
+                    <div class="input-wrapper">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Email</label>
+                        <input type="text" id="name">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <button type="submit">Sign me up</button>
+                    </div>
+
+                    <x-card />
+
+            </form>
         </div>
-    </div>
 
+    </main>
+
+
+    <!-- JavaScript file -avs -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
+
+
+
+
+<!-- #developerRight ! Hi there. This project is completely open for you. You can study it or use in your project. But I will appreciate if you at least give me the credit. Thanks, take care and stay safe. https://github.com/Autorun-AVS  -->
