@@ -39,7 +39,7 @@ body {
     width: 100%;
     height: 100%;
 
-    /* background-size: cover for cover the whole background, background-position: 100% for center it based on parent -avs */
+    /* background-size: cover for cover the whole background, background-position: 100% for centering it based on parent -avs */
     background: url("../images/Available-Today-1.webp") no-repeat;
     background-size: cover;
     background-position: 100%;
